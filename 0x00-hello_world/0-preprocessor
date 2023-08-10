@@ -1,2 +1,2 @@
 #!/bin/bash
-echo betty $CFILE >> c
+betty $CFILE >> c
