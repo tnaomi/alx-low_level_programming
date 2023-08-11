@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: 'A program using neither printf() nor puts()'
@@ -8,9 +9,7 @@
 
 int main(void)
 {
-	int i=1;
 	char str1[65]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	for (i=1; i<=65; i++);
-		putchar(str1[i]);
+	write(2, str1, 65);
 	return (1);
 }
