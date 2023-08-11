@@ -22,5 +22,7 @@ int main(void)
 		++cha;
 	}
 
+	putchar('\n');
+
 	return (0);
 }
