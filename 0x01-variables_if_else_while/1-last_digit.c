@@ -27,11 +27,11 @@ int main(void)
 	else
 		if (mod > 5)
 		{
-		printf("and %d is greater than 5\n", mod);
+		printf("and is greater than 5\n", mod);
 		}
 		else
 		{
-		printf("and %d is less than 6 and not 0\n", mod);
+		printf("and is less than 6 and not 0\n", mod);
 		}
 	return (0);
 
