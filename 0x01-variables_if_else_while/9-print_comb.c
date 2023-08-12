@@ -22,10 +22,12 @@ int main(void)
 			putchar(comma);
 			putchar(space);
 		}
-		/**else
+		/**
+		*else
 		*{
 			*putchar('$');
-		}*/
+		}
+		*/
 	}
 	putchar('\n');
 
