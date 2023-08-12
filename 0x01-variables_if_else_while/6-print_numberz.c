@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int single = 0;
+	int single;
 
-	for (single = 0;
-	single < 10;
+	for (single = 48;
+	single < 58;
 	single++)
 	{
 		putchar(single);
