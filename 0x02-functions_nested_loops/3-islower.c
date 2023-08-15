@@ -2,7 +2,8 @@
 
 /**
  * _islower - checks whether 'c' is lowercase,
- * returns '1'-lowercase, '0'-uppercase
+ *@c - the variable to be checked
+ * 1 - c - lowercase, 0 - c - uppercase
  */
 
 int _islower(int c)
