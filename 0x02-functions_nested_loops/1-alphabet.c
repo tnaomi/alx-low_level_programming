@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * main - print the letters of the alphabet
  *followed by a newline
@@ -10,6 +9,7 @@
 void print_alphabet(void)
 {
 	char letter;
+
 	for (letter = 'a';
 	letter <= 'z';
 	letter++)
