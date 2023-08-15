@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	char beta;
 
 	for (times = 0;
-	times <10;
+	times < 10;
 	times++)
 	{
 		for (beta = 'a';
