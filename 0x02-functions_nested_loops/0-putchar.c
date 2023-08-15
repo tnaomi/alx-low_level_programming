@@ -2,25 +2,20 @@
 #include "main.h"
 
 /**
-* main - The function puts out 'putchar'
-*without usin built-in functions
-*other than putchar.
-* Return : Always 0 (Success)
-*/
-
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int chars[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int index;
-
-	for (index = 0;
-	index <= 7;
-	index++)
-	{
-		putchar(chars[index]);
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
