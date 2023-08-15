@@ -6,16 +6,13 @@
  * @n: to count from n to 98
  * Return: integers list
  */
-
 void print_to_98(int n)
 {
 
 	if (n == 98)
 	{
-
 		printf("%d\n", n);
 	}
-
 	else
 	{
 		if (n < 99)
@@ -48,9 +45,7 @@ void print_to_98(int n)
 				    	printf("\n");
 				}
 				n--;
-
 			}
 		}
 	}
-
 }
