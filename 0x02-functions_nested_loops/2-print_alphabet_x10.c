@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 	times <10;
 	times++)
 	{
-		for alpha = 'a';
+		for (alpha = 'a';
 		alpha <= 'z';
 		alpha++)
 		{
