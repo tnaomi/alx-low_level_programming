@@ -12,7 +12,7 @@ void jack_bauer(void)
 	int hour,mins;
 	hour = 0;
 
-	while hour < 24:
+	while (hour < 24):
 	{
 		mins=0
 		while (mins < 60)
