@@ -1,4 +1,3 @@
-/*#include <unistd.h>*/
 #include <stdio.h>
 
 /**
@@ -9,5 +8,4 @@
 int _putchar(char letter)
 {
 	putchar(letter);
-	/*return (write(1,&letter, 1));*/
 }
