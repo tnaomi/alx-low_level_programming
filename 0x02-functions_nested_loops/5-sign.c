@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_sign - checks whether 'n' is neg/pos/zero,
+ * print_sign - checks whether 'n' is neg/pos/zero,
  * @n : the variable to be checked
  * Return: 1 if positive, 0 if zero, -1 if negative
  */
