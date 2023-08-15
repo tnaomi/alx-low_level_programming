@@ -11,4 +11,17 @@ void print_alphabet(void)
 {
 	char letter;
 	for (letter = 'a';
-	b
+	letter <= 'z';
+	letter++)
+	{
+		_putchar(letter);
+	}
+
+}
+
+int main(void)
+{
+	print_alphabet();
+	_putchar('\n');
+	return (0);
+}
