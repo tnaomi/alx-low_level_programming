@@ -6,7 +6,7 @@
  * Return: 1 if letter, 0 if otherwise
  */
 
-int _ialpha(int c)
+int _isalpha(int c)
 {
 	int a = 65;
 
