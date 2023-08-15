@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
 * main - The function puts out 'putchar'
