@@ -8,6 +8,12 @@
 
 void print_alphabet(void)
 {
+
+/**
+ * main - print the letters of the alphabet
+ *followed by a newline
+ * Return: Always 0.
+ */
 	char letter;
 
 	for (letter = 'a';
