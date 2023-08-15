@@ -8,19 +8,13 @@
 
 void print_alphabet(void)
 {
+	char alpha;
 
-/**
- * main - print the letters of the alphabet
- *followed by a newline
- * Return: Always 0.
- */
-	char letter;
-
-	for (letter = 'a';
-	letter <= 'z';
-	letter++)
+	for (alpha = 'a';
+	alpha <= 'z';
+	alpha++)
 	{
-		_putchar(letter);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 }
