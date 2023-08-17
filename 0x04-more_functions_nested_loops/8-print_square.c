@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_square - prints # diagonally n times
- * @n : the number of times to print #
+ * print_square - prints # diagonally 'size' times
+ * @size : the number of times to print #
  *  Return:Nothing. It's a void function
  */
 
-void print_square(int n)
+void print_square(int size)
 
 {
 
 int number;
 
-if (n <= 0)
+if (size <= 0)
 _putchar('\n');
-for (number = 0; number < n; number++)
+for (number = 0; number < size; number++)
 {
 _putchar('#');
 }
