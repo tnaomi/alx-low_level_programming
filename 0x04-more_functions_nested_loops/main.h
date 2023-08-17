@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+int _putchar(char letter);
 int _isupper(int c);
 
 #endif /* MAIN_H */
