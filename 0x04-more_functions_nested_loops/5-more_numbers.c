@@ -13,17 +13,23 @@ int number;
 
 int counter = 0;
 
-while (counter < 10)
-{
-for (number = 48;
-number < 58;
+
+for (number = 0;
+number < 10;
 number++)
 {
-_putchar(number);
+for (counter = 0;
+counter < 15;
+counter++)
+{
+if (counter > 9)
+{
+_putchar('1');
+_putchar(counter % 10 + '0');
 }
-_putchar('\n');
-counter++;
 }
+}
+
 _putchar ('\n');
 
 }
