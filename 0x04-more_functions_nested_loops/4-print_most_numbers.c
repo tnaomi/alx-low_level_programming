@@ -16,9 +16,12 @@ for (number = 48;
 number < 58;
 number++)
 {
-	if (!(number == 50 || number == 52))
+	if (number != 50)
 	{
-		_putchar(number);
+		if (number != 52)
+		{
+			_putchar(number);
+		}
 	}
 }
 _putchar ('\n');
