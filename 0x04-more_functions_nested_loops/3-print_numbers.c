@@ -1,20 +1,25 @@
 #include "main.h"
 
 /**
- * mul - multiplies two integers
- * @a : the variable to be multiplied
- * @b : the variable to multiply a with
- * Return: product of a and b
+ * print_numbers - prints from 0 to 9,
+ * followed by a new line
+ * Return: Always 0
  */
 
-int mul(int a, int b)
+void print_numbers(void)
 
 {
 
-int product;
+int number;
 
-product = a * b;
+for (number = 0;
+number < 10;
+number++)
+{
+	return (number);
+}
+_putchar ('\n');
 
-return (product);
+return (0);
 
 }
