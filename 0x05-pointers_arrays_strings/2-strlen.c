@@ -9,10 +9,8 @@ int _strlen(char *s)
 
 {
 
-int size;
+char *size = s;
 
-size = 2 * sizeof(s);
-
-_putchar(size);
+_putchar(sizeof(size));
 
 }
