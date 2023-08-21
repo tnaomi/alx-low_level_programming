@@ -9,8 +9,10 @@ int _strlen(char *s)
 
 {
 
-int store;
+int size;
 
-store = &s;
+size = 2 * sizeof(s);
+
+_putchar(size);
 
 }
