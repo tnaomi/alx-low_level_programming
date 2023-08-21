@@ -13,4 +13,5 @@ char *size = s;
 
 _putchar(sizeof(size));
 
+return 0;
 }
