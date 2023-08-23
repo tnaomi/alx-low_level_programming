@@ -11,7 +11,7 @@ void _puts(char *str)
 
 int count;
 
-for (count = 0; count <= *str; *str++)
+for (count = 0; count <= *str; str++)
 {
 _putchar(*str);
 count++;
