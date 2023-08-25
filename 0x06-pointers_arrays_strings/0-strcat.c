@@ -16,7 +16,7 @@ for (; *dest != '\0';)
 dest++;
 
 }
-for (;*src != '\0';)
+for (; *src != '\0';)
 {
 *dest = *src;
 dest++;
