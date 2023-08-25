@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - reverse prints an integer array
- * @s1:integer array
+ * @a:integer array
  * @n:number of elements to swap
  * Return: array
  */
