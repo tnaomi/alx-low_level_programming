@@ -10,7 +10,7 @@ char *_strdup(char *str)
 {
 
 char *copy;
-unsigned int len = 0;
+unsigned int len = 0, index = 0;
 for (; *str++;)
 len++;
 
@@ -22,11 +22,11 @@ return (NULL);
 }
 else
 {
-for (; *str++;)
+for (; index < len; index++)
 {
-*copy++ = *str++;
+copy[index] = str[index];
 }
-*copy = '\0';
+copy[len] = '\0';
 printf("%s\n", copy);
 }
 return (copy);
