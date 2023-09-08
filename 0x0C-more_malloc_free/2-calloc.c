@@ -28,14 +28,12 @@ return (NULL);
 }
 
 /*in calloc,a poiinter has to be initialised with 0*/
-*array = 0;
 
-for (indx = 1; indx < nmemb;)
+for (indx = 0; indx < (nmemb * size);)
 {
 array[indx] = 0;/*Each element init 0*/
 indx++;
 }
-printf("%s\n", array);
 return (array);
 free(array);
 }
