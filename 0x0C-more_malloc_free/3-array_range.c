@@ -28,9 +28,7 @@ if (array == NULL)
 return (NULL);
 }
 
-*array = min;
-
-for (indx = 1; min <= max;)
+for (indx = 0; min <= max;)
 {
 array[indx] = min++;
 indx++;
