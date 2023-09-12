@@ -13,8 +13,8 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 
-	    dog_t *pntr;
-	    unsigned int indx, indxn, indxo;
+	dog_t *pntr;
+	unsigned int indx, indxn, indxo;
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
