@@ -31,10 +31,5 @@ else
 {
 printf("Owner: %s\n", d->owner);
 }
-}
-else
-{
-printf("\n");
-}
 
 }
