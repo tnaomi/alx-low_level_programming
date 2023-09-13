@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
 
@@ -32,8 +31,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		pntr->name[indx] = name[indx];
 	}
-	if (age > 0)
-		pntr->age = age;
+	pntr->age = age;
 	for (indxo = 0; owner[indxo];)
 	{
 		indxo++;
