@@ -49,6 +49,6 @@ void print_all(const char * const format, ...)
 		printf(", ");
 		indx++;
 	}
-	_putchar("\n");
+	printf("\n");
 	va_end(input);
 }
