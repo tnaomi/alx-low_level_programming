@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 char _putchar(char letter);
 void print_name(char *name, void (*f)(char *));
