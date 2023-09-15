@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdarg.h>
 #include "variadic_functions.h"
 
 /**
@@ -23,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (indx = 0; indx < n; indx++)
 	{
 		printf("%d", va_arg(number, int));
-		if (indx != (n - 1))
+		if (indx < (n - 1))
 		{
 			printf("%s", separator);
 		}
