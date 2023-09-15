@@ -46,7 +46,7 @@ void print_all(const char * const format, ...)
 				break;
 		}
 		if (format[indx + 1] != '\0' && status == 0)
-		printf(", ");
+			printf(", ");
 		indx++;
 	}
 	printf("\n");
