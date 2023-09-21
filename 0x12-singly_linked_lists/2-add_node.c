@@ -14,7 +14,6 @@ list_t *add_node(list_t **head, const char *str)
 	if (new_node == NULL)
 	{
 		printf("NULL");
-		return (NULL);
 	}
 	else
 	{
