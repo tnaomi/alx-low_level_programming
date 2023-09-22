@@ -5,7 +5,7 @@
  * Return: void
 */
 
-void start_first(void) __attribute__ ((constructor));
+void start_first(void) __attribute__ ((constructor))
 
 void start_first(void)
 {
