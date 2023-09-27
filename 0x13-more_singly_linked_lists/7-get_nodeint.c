@@ -18,6 +18,8 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	for (; head != NULL; len++)
 	{
 		if (len == index)
+			if (head == NULL)
+				return (NULL);
 			store = head;
 		head = head->next;
 	}
