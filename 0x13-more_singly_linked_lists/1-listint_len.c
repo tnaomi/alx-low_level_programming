@@ -10,9 +10,6 @@ size_t listint_len(const listint_t *h)
 {
 	unsigned int num = 0;
 
-	if (h == NULL)
-		return (1);
-
 	for (; h != NULL; num++)
 		h = h->next;
 
