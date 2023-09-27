@@ -50,4 +50,8 @@ listint_t *reverse_listint(listint_t **head);
 const listint_t **cr(const listint_t **list, size_t size, const listint_t *new);
 /*Print list in safe format*/
 size_t print_listint_safe(const listint_t *head);
+/*Free list (safe version)*/
+size_t free_listint_safe(listint_t **h);
+/*Reallocate a list*/
+listint_t **cr(listint_t **list, size_t size, listint_t *new)
 #endif /* LISTS.H*/
