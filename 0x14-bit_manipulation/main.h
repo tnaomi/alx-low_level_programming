@@ -20,4 +20,6 @@ int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 /*Find number of bits to flip to switch numbers*/
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
+/*Get endianness*/
+int get_endianness(void);
 #endif /* MAIN.H*/
