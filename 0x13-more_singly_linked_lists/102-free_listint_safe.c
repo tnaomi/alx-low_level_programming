@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * cr - create a new linked list from another list
+ * ct - create a new linked list from another list
  * @list: input list to append
  * @size: size of input array
  * @new: node to be appended
  * Return: Return Address for linked list/ ERROR
  */
 
-listint_t **cr(listint_t **list, size_t size, listint_t *new)
+listint_t **ct(listint_t **list, size_t size, listint_t *new)
 {
 	listint_t **newlist;
 	size_t i;
@@ -52,7 +52,7 @@ size_t free_listint_safe(listint_t **h);
 			}
 		}
 		num++;
-		list = _ra(list, num, *head);
+		list = ct(list, num, *head);
 		next = (*head)->next;
 		free(*head);
 		*head = next;
