@@ -21,12 +21,10 @@ int create_file(const char *filename, char *text_content)
 	if (status == -1)
 		return (0);
 
-	if (text_content == NULL)
-		return (-1);
-	for (; text_content[len] != '\0'; text_content++)
-		len++;
-	if (len == 0)
+	if (!text_content)
 		text_content = "";
+	for (; text_content[len] != '\0'; len++)
+		;
 
 	write_f = write(status, text_content, len);
 	if (write_f == -1)
