@@ -25,9 +25,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (buffer == NULL)
 		return (0);
-	read_f = _rd(status, buffer, letters);
+	read_f = read(status, buffer, letters);
 
-	write_f = _wr(11, buffer, read_f);
+	write_f = write(11, buffer, read_f);
 
 	close(status);
 
