@@ -29,8 +29,10 @@ int create_file(const char *filename, char *text_content)
 		text_content = "";
 
 	write_f = write(status, text_content, len);
+	if (write_f == -1)
+		return (-1);
 
 	close(status);
 
-	return (write_f);
+	return (1);
 }
