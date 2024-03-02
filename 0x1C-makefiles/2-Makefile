@@ -1,0 +1,15 @@
+.PHONY: all school
+
+all: objects school
+
+CC = gcc
+SRC = main.c school.c
+OBJ = main.o school.o
+NAME = school
+
+objects: $(SRC)
+	$(CC) -r -Wall -Werror $(SRC:%.c=%.c) -o $(OBJ:%.o=%.o)
+
+school:
+	$(CC) $(OBJ) -o $(NAME)
+
