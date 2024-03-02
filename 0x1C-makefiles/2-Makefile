@@ -1,15 +1,14 @@
-.PHONY: all school
+.PHONY: all
 
-all: objects school
+all: objects run_sch
 
 CC = gcc
 SRC = main.c school.c
-OBJ = main.o school.o
+OBJ = $(SRC:%.c=%.o)
 NAME = school
 
 objects: $(SRC)
-	$(CC) -r -Wall -Werror $(SRC:%.c=%.c) -o $(OBJ:%.o=%.o)
+	$(CC) -c -Wall -Werror $(SRC:%.c=%.c)
 
-school:
-	$(CC) $(OBJ) -o $(NAME)
-
+run_sch: $(OBJ)
+	$(CC) -Wall -Werror $(OBJ) -o $(NAME)
