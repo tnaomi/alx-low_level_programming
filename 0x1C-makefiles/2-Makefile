@@ -1,6 +1,6 @@
-.PHONY: all
+.PHONY: all clean
 
-all: objects run_sch
+all: objects run_sch clean
 
 CC = gcc
 SRC = main.c school.c
@@ -12,3 +12,6 @@ objects: $(SRC)
 
 run_sch: $(OBJ)
 	$(CC) -Wall -Werror $(OBJ) -o $(NAME)
+
+clean:
+	rm *.o
