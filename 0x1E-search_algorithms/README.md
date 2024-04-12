@@ -52,7 +52,7 @@ Tadala N. Kapengule
 	##### Desc
 	- What is the time complexity (worst case) of a linear search in an array of size ``n``?
 
-3. Big O #1 
+3. Big O #1
 	##### Desc
 	- What is the space complexity (worst case) of an iterative linear search algorithm in an array of size ``n``?
 
@@ -72,7 +72,7 @@ Tadala N. Kapengule
 7. Jump search
 	##### Desc
 	- Write a function that searches for a value in a sorted array of integers using the Jump search algorithm
-		
+
         - Prototype : ``int jump_search(int *array, size_t size, int value)``;
         - Where **array** is a pointer to the first element of the array to search in
         - **size** is the number of elements in array
@@ -91,7 +91,7 @@ Tadala N. Kapengule
 9. Interpolation search
 	##### Desc
 	- Write a function that searches for a value in a sorted array of integers using the Interpolation search algorithm
-	
+
 	- Prototype : ``int interpolation_search(int *array, size_t size, int value)``;
         - Where **array** is a pointer to the first element of the array to search in
         - **size** is the number of elements in array
@@ -138,7 +138,7 @@ Tadala N. Kapengule
 	- You might think that linear search is not as effective as any other algorithm, right? Well, we should see what happens with a singly linked list.
 	- Please define the following data structure in your ``search_algos.h`` header file:
 		```
-			/**
+		/**
 		* struct listint_s - singly linked list
 		*
 		* @n: Integer
@@ -156,7 +156,7 @@ Tadala N. Kapengule
 		```
 	- Write a function that searches for a value in a sorted list of integers using the Jump search algorithm.
 
-	
+
 	- Prototype : ``listint_t *jump_list(listint_t *list, size_t size, int value)``;
 	- Where **list** is a pointer to the head of the list to search in
 	- **size** is the number of nodes in list
@@ -173,7 +173,7 @@ Tadala N. Kapengule
 	- As you see now, looking for a specific value in a singly linked list always leads to browse every element of the list. A common way to optimize the time complexity of a search in a singly linked list is to modify the list itself by adding an “express lane” to browse it. A linked list with an express lane is called a skip list. This change does not come without consequences. Indeed, the space complexity of a search in this kind of list will grow as ``sizeof(skiplist_t)`` > ``sizeof(listint_t)`` (see example below).
 	- Please define the following data structure in your ``search_algos.h`` header file:
 	```
-		/**
+	/**
 	* struct skiplist_s - Singly linked list with an express lane
 	*
 	* @n: Integer
@@ -194,7 +194,7 @@ Tadala N. Kapengule
 
 	- Write a function that searches for a value in a sorted skip list of integers.
 
-	
+
 	- Prototype : ``skiplist_t *linear_skip(skiplist_t *list, int value)``;
 	- Where **list** is a pointer to the head of the skip list to search in
 	- A **node** of the express lane is placed every index which is a multiple of the square root of the size of the list (see example below)
