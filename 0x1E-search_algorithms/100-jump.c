@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * minimum - Compares two integers and returns the minimum
+ * min - Compares two integers and returns the minimum
  * @a: First integer
  * @b: Second integer
  * Return: Minimum integer, -1 if error
@@ -10,9 +10,9 @@
 size_t min(size_t a, size_t b)
 {
 	if (a < b)
-		return a;
+		return (a);
 	else
-		return b;
+		return (b);
 }
 
 /**
